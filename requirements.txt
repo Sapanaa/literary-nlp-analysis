@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+nltk
+spacy
+scikit-learn
+matplotlib
+wordcloud
+pandas
+numpy
