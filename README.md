@@ -10,3 +10,7 @@ and narrative structure.
 ## Current Progress
 - Project setup
 - Data ingestion and HTML text extraction
+
+## Logging
+The project includes structured logging to track data ingestion and
+processing steps. Logs are written to `logs/app.log`.
