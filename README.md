@@ -14,3 +14,11 @@ and narrative structure.
 ## Logging
 The project includes structured logging to track data ingestion and
 processing steps. Logs are written to `logs/app.log`.
+
+### spaCy Model
+This project uses the `en_core_web_sm` spaCy model for tokenization,
+lemmatization, and linguistic preprocessing.
+
+### Large Text Handling
+Long documents are processed in chunks and with disabled parser/NER
+components to ensure memory-efficient preprocessing.
