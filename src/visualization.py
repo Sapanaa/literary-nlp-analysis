@@ -36,4 +36,19 @@ def plot_zipf(ranks, frequencies, show: bool = False):
     plt.savefig(save_path, dpi=300)
     logger.info(f"Zipf plot saved to {save_path}")
 
+
+def plot_ngrams(ngrams, title, filename, show=False):
+    words, counts = zip(*ngrams)
+
+    plt.figure(figsize=(10, 5))
+    plt.bar(words, counts)
+    plt.xticks(rotation=45)
+    plt.title(title)
+    plt.tight_layout()
+
+    save_path = IMAGES_DIR / filename
+    plt.savefig(save_path, dpi=300)
+    logger.info(f"{title} saved to {save_path}")
+
     
+
