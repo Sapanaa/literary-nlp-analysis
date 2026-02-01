@@ -30,3 +30,9 @@ lexical diversity, frequent word analysis, and Zipf’s Law visualization.
 ## Visualizations
 All plots are automatically saved to the `results/images/` directory,
 including word frequency charts and Zipf’s Law distributions.
+
+
+## REPORT
+The cleaned corpus contains approximately 111k tokens with a vocabulary size of ~13k, indicating rich linguistic variety. The lexical diversity is consistent with long-form literary text, and the average word length reflects the descriptive nature of the domain
+
+The word frequency distribution follows Zipf’s Law, indicating that the processed text exhibits statistical properties consistent with natural language.
