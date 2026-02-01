@@ -34,6 +34,11 @@ including word frequency charts and Zipf’s Law distributions.
 ## Step: 4 N-gram & Phrase Analysis
 **Goal**: Identify frequent word combinations (phrases) that capture context and meaning better than single tokens.
 
+## STEP 5 — TF-IDF Feature Engineering
+**Goal**: Convert your cleaned text into numerical features.
+
+The project represents chapters using TF-IDF features to identify
+terms and phrases that are most distinctive across the narrative.
 
 
 
@@ -43,3 +48,21 @@ I used structural pattern matching to extract the narrative content of a public-
 The cleaned corpus contains approximately 111k tokens with a vocabulary size of ~13k, indicating rich linguistic variety. The lexical diversity is consistent with long-form literary text, and the average word length reflects the descriptive nature of the domain
 
 The word frequency distribution follows Zipf’s Law, indicating that the processed text exhibits statistical properties consistent with natural language.
+
+TF-IDF analysis highlights core thematic concepts and character-specific terms, indicating strong narrative structure and chapter-level variation.
+
+## Topic Modeling Results
+
+Using NMF topic modeling on TF-IDF chapter representations, the following
+latent themes were identified:
+
+- **Topic 0 – Ahab and the White Whale**: obsession, leadership, pursuit
+- **Topic 1 – Whaling and Cetology**: whale species, anatomy, oil
+- **Topic 2 – Queequeg and Early Encounters**: early narrative and character relationships
+- **Topic 3 – Archaic Language and Speech**: stylistic and biblical language
+- **Topic 4 – Ship Authority and Ownership**: command structure and ownership
+- **Topic 5 – Whale Hunt and Action**: active whaling scenes and crew dynamics
+
+
+## Technologies
+Python, spaCy, NLTK, scikit-learn, pandas, matplotlib

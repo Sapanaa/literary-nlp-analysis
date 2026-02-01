@@ -1,0 +1,72 @@
+Topic 0
+  ahab	0.7165
+  starbuck	0.2784
+  white	0.2758
+  sea	0.2326
+  moby	0.2299
+  dick	0.2299
+  moby dick	0.2299
+  man	0.2113
+  white whale	0.2001
+  ship	0.1934
+
+Topic 1
+  whale	0.7243
+  sperm	0.2926
+  whales	0.2839
+  sperm whale	0.2600
+  leviathan	0.1809
+  great	0.1709
+  head	0.1341
+  sea	0.1329
+  right whale	0.1245
+  oil	0.1088
+
+Topic 2
+  queequeg	0.6252
+  bed	0.2064
+  said	0.1807
+  room	0.1556
+  little	0.1331
+  thought	0.1223
+  landlord	0.1144
+  hussey	0.1142
+  night	0.1008
+  door	0.0994
+
+Topic 3
+  thou	0.4413
+  sir	0.4007
+  pip	0.3910
+  ye	0.3802
+  oh	0.2041
+  thee	0.1994
+  ahab	0.1918
+  thy	0.1893
+  stubb	0.1663
+  old	0.1639
+
+Topic 4
+  bildad	0.5824
+  peleg	0.5015
+  captain	0.3085
+  ye	0.2263
+  captain peleg	0.1969
+  ship	0.1850
+  said	0.1730
+  captain bildad	0.1132
+  captain ahab	0.1123
+  good	0.1102
+
+Topic 5
+  boat	0.3955
+  stubb	0.3344
+  whale	0.3277
+  line	0.2091
+  flask	0.1895
+  boats	0.1840
+  cried	0.1432
+  pull	0.1353
+  ship	0.1351
+  tashtego	0.1148
+
