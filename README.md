@@ -51,7 +51,7 @@ The word frequency distribution follows Zipf’s Law, indicating that the proces
 
 TF-IDF analysis highlights core thematic concepts and character-specific terms, indicating strong narrative structure and chapter-level variation.
 
-## Topic Modeling Results
+### Topic Modeling Results
 
 Using NMF topic modeling on TF-IDF chapter representations, the following
 latent themes were identified:
@@ -64,5 +64,12 @@ latent themes were identified:
 - **Topic 5 – Whale Hunt and Action**: active whaling scenes and crew dynamics
 
 
-## Technologies
-Python, spaCy, NLTK, scikit-learn, pandas, matplotlib
+## Technologies Used
+
+- Python
+- spaCy (tokenization, lemmatization)
+- NLTK (stopword removal)
+- scikit-learn (TF-IDF, NMF topic modeling)
+- NumPy & pandas (data manipulation and analysis)
+- Matplotlib (visualization)
+- Logging & modular pipeline design
