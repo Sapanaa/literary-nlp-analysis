@@ -22,3 +22,11 @@ lemmatization, and linguistic preprocessing.
 ### Large Text Handling
 Long documents are processed in chunks and with disabled parser/NER
 components to ensure memory-efficient preprocessing.
+
+## Exploratory Data Analysis
+The project includes text-level EDA such as vocabulary statistics,
+lexical diversity, frequent word analysis, and Zipf’s Law visualization.
+
+## Visualizations
+All plots are automatically saved to the `results/images/` directory,
+including word frequency charts and Zipf’s Law distributions.
